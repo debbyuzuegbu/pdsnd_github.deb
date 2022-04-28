@@ -140,6 +140,7 @@ def station_stats(df):
     print(f"The most commonly used start station: {common_start_station}")
 
     # To Do: display most commonly used end station
+    
     common_end_station = df['End Station'].mode()[0]
     print(f"\nThe most commonly used end station: {common_end_station}")
 
@@ -199,6 +200,7 @@ def user_stats(df):
         print("\nIn this file, there is no 'Gender' column.")
 
     # To Do: Display earliest, most recent, and most common year of birth
+
     print("\n Collating Birth Year stats......")
     try:
       earliest = int(df['Birth Year'].min())
