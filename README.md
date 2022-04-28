@@ -1,6 +1,6 @@
 
 # Project Overview: Overview
-In this project, I made use of Python to explore data related to bike share systems for three major cities in the United States - Chicago, New York City, and Washington. I have written code to import the data and answer interesting questions about it by computing descriptive statistics. I have also written a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
+In this project, I made use of Python to find out more about data related to bike share systems for three major cities in the United States - Chicago, New York City, and Washington. I have written code to import the data and answer questions using descriptive statistics. I have also written a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ## What Software Do I Need?
 To complete this project, the following software are required:
@@ -60,4 +60,3 @@ I learned about bike share use in Chicago, New York City, and Washington by comp
 * https://www.python-course.eu/python3_input.php
 * https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response
 * https://stackoverflow.com/questions/2847386/python-string-and-integer-concatenation
-* https://stackoverflow.com/questions/19377969/combine-two-columns-of-text-in-dataframe-in-pandas-python
