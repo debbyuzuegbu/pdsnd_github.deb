@@ -30,15 +30,15 @@ In this project, I will use data provided by [Motivate](https://www.motivateco.c
 * The original files are much larger and messier, and you don't need to download them, but they can be accessed here if you'd like to see them ([Chicago](https://www.divvybikes.com/system-data), [New York City](https://www.citibikenyc.com/system-data), [Washington](https://www.capitalbikeshare.com/system-data)). These files had more columns and they differed in format in many cases. Some [data wrangling](https://en.wikipedia.org/wiki/Data_wrangling) has been performed to condense these files to the above core six columns.
 
 ## Statistics Computed:
-I learned about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. In this project, I have written code to provide the following information:
-* Popular times of travel (i.e., occurs most often in the start time)
+I learned about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. In this project, I have written code to provide the folgitlowing information:
+* Popular times of travel (i.e, occurs most often in the start time)
     * most common month
     * most common day of week
     * most common hour of day
 * Popular stations and trip
     * most common start station
     * most common end station
-    * most common trip from start to end (i.e., most frequent combination of start station and end station)
+    * most common trip from start to end (i.e, most frequent combination of start station and end station)
 * Trip duration
     * total travel time
     * average travel time
