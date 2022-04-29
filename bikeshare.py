@@ -2,8 +2,8 @@ import time
 import pandas as pd
 import numpy as np
 
-CITY_DATA = { 'chicago': 'chicago.csv',
-              'new york city': 'new_york_city.csv',
+CITY_DATA = { 'new york city': 'new_york_city.csv',
+              'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 def get_filters():
@@ -20,7 +20,7 @@ def get_filters():
     city = ''
     while city not in CITY_DATA.keys():
         print("\nPlease choose your city of interest:")
-        print("\n1. Chicago 2. New York City 3. Washington")
+        print("\n1. New York City 2. Chicago 3. Washington")
         print("\nMake a choice by entering the name of the city of interest (e.g. Chicago or New York City or Washington).")
     # user input converted to smaller alphabeth to standardize them
         
