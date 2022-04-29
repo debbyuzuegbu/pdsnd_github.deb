@@ -167,6 +167,7 @@ def trip_duration_stats(df):
     print(f"The total trip duration is {hour} hours, {minute} minutes and {second} seconds.")
 
     # To Do: display mean travel time
+    
     average_duration = round(df['Trip Duration'].mean())
     mins, sec = divmod(average_duration, 60)
 
@@ -225,6 +226,7 @@ def display_data(df):
     view_data = ''
     #counter variable is initialized as a tag to ensure only details from
     #a particular point is displayed
+
     counter = 0
     while view_data not in BIN_RESPONSE_LIST:
         print("\nDo you wish to view the raw data?")
