@@ -56,6 +56,6 @@ I learned about bike share use in Chicago, New York City, and Washington by comp
     ```python bikeshare_2.py```
 
 # Extra Links that helped me solve the project are:
-* https://www.python-course.eu/python3_input.php
 * https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response
 * https://stackoverflow.com/questions/2847386/python-string-and-integer-concatenation
+* https://www.python-course.eu/python3_input.php
